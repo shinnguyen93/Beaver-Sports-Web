@@ -1,0 +1,57 @@
+body{
+  margin-top:50px;
+}
+
+#nav-container{
+  width: 90%;
+  background-color: green;
+}
+
+.navbar li:hover{
+  background:#e7e7e7;
+}
+
+#logo-container{
+  padding: 10px;
+}
+
+#slide{
+  width: 80%;
+  margin: auto;
+  padding: auto;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+#carousel-section{
+  width: 100%;
+  float: left;
+}
+
+#contacts-section{
+  width: 40%;
+}
+
+.w-100{
+  height:500px;
+}
+
+.carousel-caption{
+  background-color: black;
+  opacity: 0.4;
+}
+
+.contact-form{
+  border-style: solid;
+  border-radius: 10px;
+  border-color: lightgrey;
+}
+
+footer{
+  text-align: center;
+  font-size: 1.2em;
+  background-color: blue;
+  color: white;
+  padding: 20px 0px;
+  margin: auto;
+}
