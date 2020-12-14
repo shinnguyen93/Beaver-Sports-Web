@@ -2,25 +2,65 @@ body{
   margin-top:50px;
 }
 
-#nav-container{
-  width: 90%;
-  background-color: green;
-}
 
 .navbar li:hover{
   background:#e7e7e7;
 }
 
+.navbar-nav li:hover>.dropdown-menu {
+  display: block;
+}
+
 #logo-container{
   padding: 10px;
+  float: left;
+}
+
+#logo-container img{
+  width:300px;
+}
+
+#nav-container{
+  font-size: 1.6em;
+  padding-left: 500px;
+}
+
+.nav-item{
+  padding: 0px 40px;
+}
+
+#container{
+  padding: 20px 0px;
+  border: 10px;
+  border-style: solid;
+  border-color: linen;
+  border-radius: 20px;
+}
+
+.row{
+  width: 100%;
+}
+
+.inner-page{
+  border-style: solid;
+  border-color: black;
 }
 
 #slide{
   width: 80%;
   margin: auto;
   padding: auto;
+  padding: 10px 0px;
   margin-top:10px;
   margin-bottom: 10px;
+}
+
+#slide h1{
+  text-align: center;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+
 }
 
 #carousel-section{
