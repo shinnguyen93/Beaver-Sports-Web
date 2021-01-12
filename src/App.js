@@ -1,14 +1,16 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import React, { useState, useEffect } from 'react'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './pages/Home'
-import About from './pages/About'
+import About from './Components/About'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
 
 function App() {
+
   return (
-    <div>
+    <div className="App">
       <Router>
         <Header />
         <Switch>
