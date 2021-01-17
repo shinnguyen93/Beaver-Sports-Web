@@ -5,15 +5,15 @@
 * License: https://bootstrapmade.com/license/
 */
 
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 /*
 Google Fonts
 */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700');
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700');
 body {
     background: #fff;
     color: #444;
@@ -25,9 +25,7 @@ a {
     transition: 0.5s;
 }
 
-a:hover,
-a:active,
-a:focus {
+a:hover, a:active, a:focus {
     color: #51d8af;
     outline: none;
     text-decoration: none;
@@ -38,18 +36,12 @@ p {
     margin: 0 0 30px 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     margin: 0 0 20px 0;
     padding: 0;
 }
-
 
 /* Back to top button */
 
@@ -82,7 +74,6 @@ h6 {
     background: #0c2e8a;
     color: #fff;
 }
-
 
 /*--------------------------------------------------------------
   # Top Bar
@@ -130,7 +121,6 @@ h6 {
 #topbar .social-links a:first-child {
     border-left: 0;
 }
-
 
 /*--------------------------------------------------------------
   # Header
@@ -183,7 +173,6 @@ h6 {
     }
 }
 
-
 /*--------------------------------------------------------------
   # Intro Section
   --------------------------------------------------------------*/
@@ -192,7 +181,6 @@ h6 {
     width: 100%;
     height: 60vh;
     position: relative;
-    background-image: url("assets/images/intro-carousel/1.jpg");
     background-size: cover;
     padding: 0;
 }
@@ -229,8 +217,7 @@ h6 {
     }
 }
 
-#intro .intro-content .btn-get-started,
-#intro .intro-content .btn-projects {
+#intro .intro-content .btn-get-started, #intro .intro-content .btn-projects {
     font-family: "Raleway", sans-serif;
     font-size: 15px;
     font-weight: bold;
@@ -289,16 +276,13 @@ h6 {
     transition-property: opacity;
 }
 
-
 /*--------------------------------------------------------------
   # Navigation Menu
   --------------------------------------------------------------*/
 
-
 /* Nav Menu Essentials */
 
-.nav-menu,
-.nav-menu * {
+.nav-menu, .nav-menu * {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -321,8 +305,7 @@ h6 {
     float: left;
 }
 
-.nav-menu li:hover>ul,
-.nav-menu li.sfHover>ul {
+.nav-menu li:hover>ul, .nav-menu li.sfHover>ul {
     display: block;
 }
 
@@ -334,7 +317,6 @@ h6 {
 .nav-menu ul li {
     min-width: 180px;
 }
-
 
 /* Nav Menu Arrows */
 
@@ -355,7 +337,6 @@ h6 {
     content: "\f105";
 }
 
-
 /* Nav Meu Container */
 
 #nav-menu-container {
@@ -368,7 +349,6 @@ h6 {
         display: none;
     }
 }
-
 
 /* Nav Meu Styling */
 
@@ -383,8 +363,7 @@ h6 {
     outline: none;
 }
 
-.nav-menu li:hover>a,
-.nav-menu .menu-active>a {
+.nav-menu li:hover>a, .nav-menu .menu-active>a {
     color: #50d8af;
 }
 
@@ -420,7 +399,6 @@ h6 {
     margin: 0;
 }
 
-
 /* Mobile Nav Toggle */
 
 #mobile-nav-toggle {
@@ -447,7 +425,6 @@ h6 {
         display: inline;
     }
 }
-
 
 /* Mobile Nav Styling */
 
@@ -522,7 +499,6 @@ h6 {
     display: none;
 }
 
-
 /* Mobile Nav body classes */
 
 body.mobile-nav-active {
@@ -537,7 +513,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #fff;
 }
 
-
 /*--------------------------------------------------------------
   # Sections
   --------------------------------------------------------------*/
@@ -546,7 +521,6 @@ section {
     overflow: hidden;
     padding: 40px 0;
 }
-
 
 /* Sections Header
   --------------------------------*/
@@ -579,7 +553,6 @@ section {
     padding: 0;
     margin: 0;
 }
-
 
 /*--------------------------------------------------------------
   # Breadcrumbs
@@ -635,7 +608,6 @@ section {
     }
 }
 
-
 /* About Section
   --------------------------------*/
 
@@ -648,7 +620,7 @@ section {
 }
 
 #about .about-img img {
-    padding-top:20vh;
+    padding-top: 20vh;
     margin-left: -15px;
     max-width: 100%;
 }
@@ -700,7 +672,6 @@ section {
 #about .content ul li {
     padding-bottom: 10px;
 }
-
 
 /* Services Section
   --------------------------------*/
@@ -771,13 +742,11 @@ section {
         text-align: center;
         padding-bottom: 15px;
     }
-    #services .box h4,
-    #services .box p {
+    #services .box h4, #services .box p {
         margin-left: 0;
         text-align: center;
     }
 }
-
 
 /* Clients Section
   --------------------------------*/
@@ -801,8 +770,7 @@ section {
 }
 */
 
-#clients .owl-nav,
-#clients .owl-dots {
+#clients .owl-nav, #clients .owl-dots {
     margin-top: 5px;
     text-align: center;
 }
@@ -820,11 +788,10 @@ section {
     background-color: #50d8af;
 }
 
-.carousel-img{
-    height:80vh;
+.carousel-img {
+    height: 80vh;
     width: 100%;
 }
-
 
 /* Our Portfolio Section
   --------------------------------*/
@@ -834,7 +801,54 @@ section {
     padding: 30px 0;
 }
 
-#portfolio #portfolio-flters {
+/*Category Button*/
+#portfolio .btn-container {
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* .filter-btn {
+    background: transparent;
+    border-color: transparent;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin: 0 0.5rem;
+    letter-spacing: 1px;
+    padding: 0.375rem 0.75rem;
+    color: var(--clr-gold);
+    cursor: pointer;
+    transition: var(--transition);
+    border-radius: var(--radius);
+} */
+
+#portfolio .filter-btn{
+    cursor: pointer;
+    padding: 10px 18px 12px 18px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: #444;
+    margin: 0 3px 10px 3px;
+    transition: all ease-in-out 0.3s;
+    background: #f7f7f7;
+    border-radius: 4px;
+    border: none;
+}
+
+#portfolio .filter-btn:hover{
+    color: #fff;
+    background: #50d8af;
+}
+
+
+#portfolio .filter-btn:last-child{
+    margin-right: 0;
+}
+
+/*End of Category Button*/
+
+/* #portfolio #portfolio-flters {
     padding: 0;
     margin: 0 auto 25px auto;
     list-style: none;
@@ -856,17 +870,96 @@ section {
     border-radius: 4px;
 }
 
-#portfolio #portfolio-flters li:hover,
-#portfolio #portfolio-flters li.filter-active {
+#portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
     color: #fff;
     background: #50d8af;
 }
 
 #portfolio #portfolio-flters li:last-child {
     margin-right: 0;
+} */
+
+.product-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem 2rem;
+    justify-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-#portfolio .portfolio-item {
+#portfolio .menu-item {
+    position: relative;
+    gap: 1rem 2rem;
+    max-width: 25rem;
+}
+
+#portfolio .menu-item img {
+    width: 350px;
+    height: 280px;
+    position: relative;
+    top: 0;
+    transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -webkit-transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#portfolio .menu-item .portfolio-info {
+    position: absolute;
+    opacity: 0;
+    left: 0px;
+    right: 0px;
+    bottom: -50px;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+    -webkit-transition: all ease-in-out 0.3s;
+    background: #50d8af;
+    padding: 15px 20px;
+}
+
+#portfolio .menu-item .portfolio-info h4 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#portfolio .menu-item .portfolio-info p {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+#portfolio .menu-item .portfolio-info .preview-link, #portfolio .menu-item .portfolio-info .details-link {
+    float: right;
+    right: 50px;
+    font-size: 24px;
+    top: calc(50% - 15px);
+    color: rgba(255, 255, 255, 0.6);
+    transition: ease-in-out 0.3s;
+    -webkit-transition: ease-in-out 0.3s;
+}
+
+#portfolio .menu-item .portfolio-info .preview-link:hover, #portfolio .menu-item .portfolio-info .details-link:hover {
+    color: #fff;
+}
+
+#portfolio .menu-item .portfolio-info .details-link {
+    float: right;
+    right: 15px;
+}
+
+#portfolio .menu-item:hover img {
+    top: -30px;
+}
+
+#portfolio .menu-item:hover .portfolio-info {
+    opacity: 1;
+    bottom: 0;
+}
+
+/* #portfolio .portfolio-item {
     margin-bottom: 30px;
     overflow: hidden;
 }
@@ -878,6 +971,8 @@ section {
     top: 0;
     transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
+
+
 
 #portfolio .portfolio-item .portfolio-info {
     opacity: 0;
@@ -903,8 +998,7 @@ section {
     margin-bottom: 0;
 }
 
-#portfolio .portfolio-item .portfolio-info .preview-link,
-#portfolio .portfolio-item .portfolio-info .details-link {
+#portfolio .portfolio-item .portfolio-info .preview-link, #portfolio .portfolio-item .portfolio-info .details-link {
     position: absolute;
     right: 50px;
     font-size: 24px;
@@ -913,8 +1007,7 @@ section {
     transition: ease-in-out 0.3s;
 }
 
-#portfolio .portfolio-item .portfolio-info .preview-link:hover,
-#portfolio .portfolio-item .portfolio-info .details-link:hover {
+#portfolio .portfolio-item .portfolio-info .preview-link:hover, #portfolio .portfolio-item .portfolio-info .details-link:hover {
     color: #fff;
 }
 
@@ -929,8 +1022,7 @@ section {
 #portfolio .portfolio-item:hover .portfolio-info {
     opacity: 1;
     bottom: 0;
-}
-
+} */
 
 /*--------------------------------------------------------------
   # Portfolio Details
@@ -949,8 +1041,7 @@ section {
     z-index: 1;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav,
-.portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
     margin-top: 5px;
     text-align: left;
 }
@@ -1021,7 +1112,6 @@ section {
     }
 }
 
-
 /* Testimonials Section
   --------------------------------*/
 
@@ -1084,8 +1174,7 @@ section {
     margin: 0 auto 15px auto;
 }
 
-#testimonials .owl-nav,
-#testimonials .owl-dots {
+#testimonials .owl-nav, #testimonials .owl-dots {
     margin-top: 5px;
     text-align: center;
 }
@@ -1102,7 +1191,6 @@ section {
 #testimonials .owl-dot.active {
     background-color: #50d8af;
 }
-
 
 /* Call To Action Section
   --------------------------------*/
@@ -1149,7 +1237,6 @@ section {
     background: #50d8af;
     border: 3px solid #50d8af;
 }
-
 
 /* Our Team Section
   --------------------------------*/
@@ -1205,7 +1292,6 @@ section {
     margin: 0 2px;
 }
 
-
 /* Contact Section
   --------------------------------*/
 
@@ -1225,8 +1311,7 @@ section {
     color: #50d8af;
 }
 
-#contact .contact-info address,
-#contact .contact-info p {
+#contact .contact-info address, #contact .contact-info p {
     margin-bottom: 0;
     color: #000;
 }
@@ -1247,16 +1332,12 @@ section {
     color: #50d8af;
 }
 
-#contact .contact-address,
-#contact .contact-phone,
-#contact .contact-email {
+#contact .contact-address, #contact .contact-phone, #contact .contact-email {
     margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
-    #contact .contact-address,
-    #contact .contact-phone,
-    #contact .contact-email {
+    #contact .contact-address, #contact .contact-phone, #contact .contact-email {
         padding: 20px 0;
     }
 }
@@ -1329,16 +1410,14 @@ section {
     animation: animate-loading 1s linear infinite;
 }
 
-#contact .php-email-form input,
-#contact .php-email-form textarea {
+#contact .php-email-form input, #contact .php-email-form textarea {
     padding: 10px 14px;
     border-radius: 0;
     box-shadow: none;
     font-size: 15px;
 }
 
-#contact .php-email-form input::focus,
-#contact .php-email-form textarea::focus {
+#contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
     background-color: #50d8af;
 }
 
@@ -1373,7 +1452,6 @@ section {
         transform: rotate(360deg);
     }
 }
-
 
 /*--------------------------------------------------------------
   # Footer

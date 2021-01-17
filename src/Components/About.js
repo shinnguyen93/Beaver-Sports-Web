@@ -1,5 +1,4 @@
 import React from 'react'
-import aboutImg from '../assets/images/about-img.jpg'
 
 function About() {
     return (
@@ -7,7 +6,7 @@ function About() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 about-img">
-                        <img src={aboutImg} alt="" />
+                        <img src='./images/about-img.jpg' alt="" />
                     </div>
 
                     <div className="col-lg-6 content">

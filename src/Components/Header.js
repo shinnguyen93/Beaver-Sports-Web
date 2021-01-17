@@ -1,6 +1,5 @@
 import React from 'react'
 import Navigation from './Navigation'
-import logo from '../assets/images/logo.jpg'
 
 
 function Header() {
@@ -8,7 +7,7 @@ function Header() {
         <header id="header">
             <div className="container">
                 <div id="logo" className="pull-left">
-                    <a href="/"><img src={logo} alt="" /></a>
+                    <a href="/"><img src='./images/logo.jpg' alt="" /></a>
                 </div>
                 <Navigation />
             </div>
