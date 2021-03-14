@@ -3,7 +3,7 @@ import carouselImg from './carousel_data.js'
 import ProjectCarousel from './ProjectCarousel.js'
 
 function Project() {
-    const [carouselImages, setCarouselImages] = useState(carouselImg);
+    const [carouselImages] = useState(carouselImg);
     return (
         <section id="clients" className="wow fadeInUp">
             <div className="container">

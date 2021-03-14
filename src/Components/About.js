@@ -6,7 +6,7 @@ function About() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 about-img">
-                        <img src='./images/about-img.jpg' alt="" />
+                        <img src='./images/about-img.jpg' alt="About Beaver Sports" />
                     </div>
 
                     <div className="col-lg-6 content">

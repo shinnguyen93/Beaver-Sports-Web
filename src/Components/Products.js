@@ -7,7 +7,7 @@ const allCategories = ['All', ...new Set(items.map((item) => item.category))];
 
 function Products() {
     const [menuItems, setMenuItems] = useState(items);
-    const [categories, setCategories] = useState(allCategories);
+    const [categories] = useState(allCategories);
 
     const filterItems = (category) => {
         if (category === "All") {

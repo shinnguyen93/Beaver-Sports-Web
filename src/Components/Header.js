@@ -7,7 +7,7 @@ function Header() {
         <header id="header">
             <div className="container">
                 <div id="logo" className="pull-left">
-                    <a href="/"><img src='./images/logo.jpg' alt="" /></a>
+                    <a href="/"><img src='./images/logo.jpg' alt="Beaver Sports" /></a>
                 </div>
                 <Navigation />
             </div>

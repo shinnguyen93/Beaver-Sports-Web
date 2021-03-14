@@ -4,18 +4,12 @@ function Menu({ items }) {
     return (
         <div className="product-container">
             {items.map((menuItem) => {
-                const { id, title, category, img } = menuItem;
+                const { id, title, category, img, alt_tag } = menuItem;
                 return (
                     <div key={id} className="menu-item">
-                        <img src={img} className="img-fluid" alt="" />
+                        <img src={img} className="img-fluid" alt={alt_tag} />
                         <div className="portfolio-info">
-                            <h4>{title}
-                                <a href="/products/golf_equipment"
-                                    className="details-link"
-                                    title="More Details">
-                                    <i className="bx bx-link"></i>
-                                </a>
-                            </h4>
+                            <h4>{title}</h4>
                             <p>{category}</p>
                         </div>
                     </div>

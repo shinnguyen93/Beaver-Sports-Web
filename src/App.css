@@ -748,6 +748,10 @@ section {
     }
 }
 
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.35);
+}
+
 /* Clients Section
   --------------------------------*/
 
@@ -880,6 +884,7 @@ section {
 } */
 
 .product-container {
+    height: 100%;
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -889,6 +894,8 @@ section {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    transition: all ease-in-out 0.3s;
+    -webkit-transition: all ease-in-out 0.3s;
 }
 
 #portfolio .menu-item {

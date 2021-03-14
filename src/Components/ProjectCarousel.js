@@ -7,7 +7,7 @@ function ProjectCarousel({ carouselImages }) {
             {carouselImages.map((carouselImg) => {
                 const { id, title, desc, img } = carouselImg;
                 return (
-                    <Carousel.Item interval={1000}>
+                    <Carousel.Item interval={2000}>
                         <img key={id}
                             className="carousel-img"
                             src={img}
